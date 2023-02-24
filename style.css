@@ -1,8 +1,82 @@
 *{
     padding:0;
     margin:0;
+    list-style-type: none;
+    
 }
-h1{
-    background-color: grey;
-    padding:100px
+
+.header{
+    width:100%;
+   background-color: grey;
+   
+    height: 100px;
+    
+}
+.header .container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    padding: 0px 50px;
+    align-items: center;
+    padding-top: 30px;
+    overflow: hidden;
+    
+}
+#drop-down{
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top:0;
+    z-index: 3;
+    opacity: 0.97;
+    display: none;
+
+}
+.nav{
+    max-width: 800px;
+}
+.nav .nav-section {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-list a{
+    color:black;
+    text-decoration: none;
+    padding:0px 20px;
+}
+.icons {
+    display: flex;
+  
+    flex-direction: row;
+    
+}
+.icons a{
+    padding:0px 10px;
+    font-size: 20px;
+    color:black;
+}
+#hamburger{
+    display: none;
+   
+}
+@media (max-width:770px){
+    .nav{
+        display: none;
+    }
+   
+    #hamburger{
+        display: block;
+       
+    }
+    .icons a{
+        padding:0px 20px
+    }
+}
+@media (max-width:600px){
+    #facebook, #google, #apple, #insta{
+        display: none;
+    }
 }
