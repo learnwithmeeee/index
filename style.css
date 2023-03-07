@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: #FAFAFA;
+    
+}
+.wrapper{
+    max-width: 1400px;
+    margin-inline: auto;
+  padding:0 30px
+    
+}
+.header{
+    background-color: #120e16;
+  width:100%;
+  height: 120px;
+  
+}
+.header-section{
+  
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    text-transform: uppercase;
+   
+}
+.navigation ul{
+    display: flex;
+    
+    
+}
+.navigation ul li{
+    padding:0 30px;
+    padding-top: 10px;
+    list-style: none;
+}
+.nav-lists a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+.raul{
+    letter-spacing: 2px;
+}
+.Intro-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  
+    letter-spacing: 2px;
+   margin:250px 0px;
+   
+}
+.Intro-section button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #373b61;
+    font-size: 18px;
+    border:none;
+    color:white;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out 0.1s;
+}
+.Intro-section button:hover{
+   
+    transform: translateY(10px);
+}
+.footer{
+    width: 100%;
+    background-color: #120e16 ;
+    height: 150px;
+   
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+ padding-top: 50px;
+}
+.icons{
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+   
+}
+.fa-solid{
+    color: white;
+}
+.fa-brands{
+    color: white;
+   
+}
+#facebook, #insta, #github, #email,#link{
+transition: transform 0.5s ease-in-out 0.2s;
+}
+#facebook:hover, #insta:hover, #github:hover, #email:hover, #link:hover{
+    transform: translatey(10px);
+}
