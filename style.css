@@ -3,7 +3,7 @@
     margin:0;
 }
 body{
-    background-color: #FAFAFA;
+    background-color: #293556;
     
 }
 .wrapper{
@@ -42,21 +42,41 @@ body{
     color:white;
     font-size: 16px;
     letter-spacing: 2px;
+    ;
 
 }
+.nav-lists a span{
+    position: relative;
+}
+.nav-lists a span::after{
+    position: absolute;
+    content: "";
+   
+    width: 2px;
+    height: 90px;
+    background-color: aqua;
+    transform: rotate(90deg);
+    left: 40px;
+    top: -22px;
+    
+    
+}
+
 .raul{
     letter-spacing: 2px;
 }
 .Intro-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ 
     font-size: 40px;
-  
+  text-align: center;
     letter-spacing: 2px;
    margin:250px 0px;
-   
+   overflow: hidden;
+}
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .Intro-section button{
     width: 150px;
@@ -98,9 +118,9 @@ body{
     color: white;
    
 }
-#facebook, #insta, #github, #email,#link{
+#facebook, #insta, #github, #email,#link,.heading{
 transition: transform 0.5s ease-in-out 0.2s;
 }
-#facebook:hover, #insta:hover, #github:hover, #email:hover, #link:hover{
+#facebook:hover, #insta:hover, #github:hover, #email:hover, #link:hover, .heading:hover{
     transform: translatey(10px);
 }
