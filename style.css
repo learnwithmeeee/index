@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&family=Montserrat:wght@100&family=Noto+Serif&family=Playfair+Display&family=Poppins:wght@200&display=swap');
 *{
     padding: 0;
     margin:0;
+    font-family: 'Poppins', sans-serif;
+
 }
 body{
     background-color: #293556;
@@ -42,24 +45,11 @@ body{
     color:white;
     font-size: 16px;
     letter-spacing: 2px;
-    ;
+    font-weight: 700;
 
 }
 .nav-lists a span{
     position: relative;
-}
-.nav-lists a span::after{
-    position: absolute;
-    content: "";
-   
-    width: 2px;
-    height: 90px;
-    background-color: aqua;
-    transform: rotate(90deg);
-    left: 40px;
-    top: -22px;
-    
-    
 }
 
 .raul{
@@ -124,3 +114,26 @@ transition: transform 0.5s ease-in-out 0.2s;
 #facebook:hover, #insta:hover, #github:hover, #email:hover, #link:hover, .heading:hover{
     transform: translatey(10px);
 }
+.html{
+    width: 100%;
+    height: 12px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.right-intro{
+    flex-basis: 45%;
+}
+.right-intro .html-intro{
+    width: 80%;
+   height: 12px;
+   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.gap{
+    margin-top: 10px;
+}
+.js-intro{
+width:40% ;
+height: 12px;
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
