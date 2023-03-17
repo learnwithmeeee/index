@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.me-img{
+    max-width: 50%;
+}
+.heading-about-me{
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+body{
+    background-color: white;
+}
+.who-am-i{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.h2-description{
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+ 
+}
+.left{
+    text-align: left;
+}
+ul li{
+    padding-bottom: 20px;
+}
+.li-list{
+    text-decoration: underline;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin:10px 30px
+}
+.btns{
+    margin:0px 10px;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    border:none;
+    background-color: blanchedalmond;
+   transition: transform 0.5s ease-in-out 0.1s;;
+}
+.btns:hover{
+    transform: translateY(10px);
+    cursor: pointer;
+}
