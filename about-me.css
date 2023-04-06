@@ -56,3 +56,10 @@ ul li{
     transform: translateY(10px);
     cursor: pointer;
 }
+
+@media (max-width:1000px){
+    body{
+        background-color: black;
+        color:white
+    }
+}
